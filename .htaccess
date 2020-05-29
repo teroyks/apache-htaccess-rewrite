@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{QUERY_STRING} ^lang\b
+RewriteRule ^$ /language-selection/ [L]
+
